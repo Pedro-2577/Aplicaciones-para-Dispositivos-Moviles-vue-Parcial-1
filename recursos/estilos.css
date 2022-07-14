@@ -1,0 +1,167 @@
+.form{width:350px;background:pink;font-family:verdana;font-size:20px;text-shadow: 2px 3px 5px grey;color:white;}
+form{width:350px;}
+label, input[type="text"], textarea{width:200px;display:inline-block;	padding:5px;margin:10px 20px;}
+input[type="text"]{color:grey}
+button{width:220px;display: inline-block;padding:5px;margin:30px 20px}
+select{width: 200px; margin:30px 20px}
+a{display:inline-block; width: 300px;padding:10px;}
+ul{list-style: none;font-size:18px;font-family: verdana;}
+.lista{color:grey;width: 310px;line-height:29px;margin-top:20px;background-color: pink}
+
+
+/*Transiciones*/
+.router-link-active {
+  color: black;
+  background:white;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: opacity 0.7s ease;
+ }
+.fade-leave-active {
+  transition: opacity 0.7s ease;
+  opacity: 0;
+ }
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+{
+  transform: translateX(10px);
+  opacity: 0;
+ }
+
+ .bounce-enter-active {
+  animation: bounce-in .5s;
+}
+.bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*BACKGROUND*/
+
+body {
+  background-image: url(../imgs/fondo.jpg);
+}
+.app {background: rgba(  45, 40, 39, 0.60);
+      margin: 10px;
+      padding: 5px 10px;
+}
+
+/*TIPOGRAFIA, FUENTE Y LETRAS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Roboto:wght@100&display=swap');
+
+body {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, a {
+  font-family: 'Blaka Hollow', cursive;
+}
+
+h1, h2, a {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+/*a*/
+
+a {
+  color: white;
+  background: black;
+}
+
+/*NAV*/
+
+nav{
+  z-index: 5;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  /*position: sticky;*/
+  top: 12px;
+  margin-bottom: 50px;
+  color: red;
+}
+
+nav  li{
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+}
+
+/*TITULOS*/
+
+h1 {
+  text-align: center;
+}
+
+nav ul li {
+  margin: auto;
+}
+
+/*FORM*/
+
+.form {
+  margin: auto;
+  text-align: center;
+  background: rgba( 45, 40, 39, 0.80);
+}
+
+/*GALERIA*/
+
+.left {
+  float: left;
+  padding-right: 25px;
+}
+
+.right {
+  float: right;
+  padding-left: 25px;
+}
+
+.galeria > div{
+  height: 197px;
+  background: rgba( 45, 40, 39, 0.60);
+  padding: 10px;
+  margin: 30px 10px;
+}
+
+.galeria > li{
+  height: 197px;
+  background: rgba( 45, 40, 39, 0.60);
+  padding: 10px;
+  margin: 30px 10px;
+}
+

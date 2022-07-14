@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Doom Slayer shop</title>
+
+	<script src="recursos/vue.js"></script>
+  <script src="recursos/vue2-filters.js"></script>
+  <link rel="stylesheet" href="recursos/estilos.css">
+  <link rel="shortcut icon" href="imgs/favicon-16x16.png" />
+
+</head>
+<body>
+	
+<div class="app">
+  <h1>Doom Slayer shop</h1>
+ <nav>
+  <ul>
+    <li><router-link to="/" exact>Menu</router-link></li>
+    <li><router-link to="/ingresar" exact>Solicitar armas</router-link></li>
+    <li><router-link to="/mostrar">Ver armas solisitadas</router-link></li>
+  </ul>
+</nav>
+  
+  	<transition name="slide-fade" mode="out-in">
+  		<router-view></router-view>
+    </transition>
+	
+</div>
+
+
+	<script src="recursos/router/vue-router.js"></script>
+  <script src="componentes/home.js"></script>
+	<script src="componentes/ingresar.js"></script>
+	<script src="componentes/mostrar.js"></script>
+  <script src="recursos/router/rutas.js"></script>
+	
+</body>

@@ -1,0 +1,20 @@
+TEMATICA: Ecomerce de doom, en el que puede comprar sus armas y municion, un form en el que puede encargar un arma para que sea desarrollada una galeria en la que se prueben las armas.
+
+(ecomerce creo que no hacer falta, si no veo una solucion para no programar tanto al pedo reemplazo eso con algo mas simple)
+
+link de viedo-pauta:
+https://drive.google.com/file/d/1uHr3BK5_6gsaANcuaoMEBBJPy32Wh4IG/view
+
+robo de datos: https://slayersclub.bethesda.net/es
+
+Pendiente:
+
+-Informe
+---------------------
+
+*Agregar por lo menos un componente no relacionado con el nav
+
+Deberán realizar un informe (archivo pdf) que describa por cada pantalla realizada, las
+funcionalidades desarrolladas desde vuejs, y las posibles respuestas pensadas para
+darle al usuario, desarrollando el flujo de uso de la misma. Debe acompañar con los
+prints de las pantallas.
